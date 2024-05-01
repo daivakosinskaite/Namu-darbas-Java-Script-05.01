@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lentele</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Sukurkite lentele</h1>
+    <form id="lentelesForma">
+        <label for="stulpeliai">Iveskite stulpeliu skaiciu:</label>
+        <input type="number" id="stulpeliai" name="stulpeliai" min="1">
+        <br>
+        <br>
+        <label for="eilutes">Iveskite eiluciu skaiciu:</label>
+        <input type="number" id="eilutes" name="eilutes" min="1">
+        <br>
+        <br>
+        <button type="button" onclick="generuotiLentele()">Gerai</button>
+    </form>
+    <div id="lenteleContainer"></div>
+
+    <script src="script.js"></script>
+</body>
+</html>
